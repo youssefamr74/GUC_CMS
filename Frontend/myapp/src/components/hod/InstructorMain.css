@@ -1,0 +1,25 @@
+.main {
+  /*  background-image: url(./images/GUCbg.jpg) center center/cover no-repeat;*/
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+.dropbtn1 {
+  align-self: stretch;
+  margin-right: 200px;
+  margin-top: 20px;
+}
+.dropbtn2 {
+  align-self: baseline;
+  margin-right: 200px;
+  margin-top: 20px;
+}
+.dropbtn3 {
+  align-self: stretch;
+  margin-top: 20px;
+}

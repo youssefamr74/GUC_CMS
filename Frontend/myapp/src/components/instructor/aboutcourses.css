@@ -1,0 +1,26 @@
+.aboutContainer {
+  max-width: 50%;
+  margin: auto;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about-items {
+  float: inherit;
+  background: gray;
+  color: black;
+  margin-right: 10px;
+}
+
+/* mouse over link */
+
+.about-items:hover {
+  color: rgb(59, 59, 172);
+}
+
+/* selected link */
+
+.about-items:active {
+  color: rgb(59, 59, 172);
+}

@@ -1,0 +1,70 @@
+.updateContainer {
+  width: 1000px;
+  margin-right: 100%;
+  float: none;
+  display: block;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #797979;
+}
+
+.updatepic {
+  position: relative;
+  left: 4%;
+}
+
+.form {
+  margin: auto;
+  margin-left: 100px;
+}
+
+.profile-button {
+  background: #797979;
+  box-shadow: none;
+  border: none;
+}
+
+.profile-button:hover {
+  color: whitesmoke;
+  background: black;
+}
+
+.profile-button:focus {
+  background: #797979;
+  box-shadow: none;
+}
+
+.profile-button:active {
+  background: #797979;
+  box-shadow: none;
+}
+
+.back:hover {
+  color: #797979;
+  cursor: pointer;
+}
+
+.labels {
+  margin: 7px 7px;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 770px) {
+  .updateContainer {
+    margin: auto;
+    width: auto;
+    float: none;
+    display: block;
+  }
+
+  .profile-info {
+    width: auto;
+    margin: auto;
+  }
+  .updatepic {
+    width: auto;
+    margin: auto;
+  }
+}
